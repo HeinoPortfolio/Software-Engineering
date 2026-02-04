@@ -3,6 +3,8 @@
 ##  Description
 > Software engineering principles and concepts. The software life cycle, structured specifications, design tools and techniques, software reliability, and verifying program correctness.
 
+-------
+
 ## Competencies
 Competencies and objectives completed:
 
@@ -14,8 +16,7 @@ Competencies and objectives completed:
 - $`\textcolor{blue}{\text{Implement the project under the change requests from the client partner.}}`$
 - $`\textcolor{blue}{\text{Verify and validate the project whether it solves the client partner’s problem.}}`$
 - $`\textcolor{blue}{\text{Make a sustainable maintenance plan.}}`$
-
-
+-------
 ## Technologies and Concepts Used
 
 The concepts and technologies used to create and complete the assessments are the following:
