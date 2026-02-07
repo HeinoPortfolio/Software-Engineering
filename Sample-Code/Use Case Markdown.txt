@@ -1,0 +1,59 @@
+- **UC1:** Establish a vacation goal
+   - **FR1:** System must provide a UI for entering a goal name, a target amount, and a desired completion date
+   - **FR2:** Based on the entered target and deadline must automatically calculate and display the required periodic contribution
+   - **NFR1:** Creation of the goal must be completed in about five or fewer steps
+   - **NFR2:** The system must save the goal once the information is completed        
+- **UC2:** Monitor progress toward the goal
+   - **FR1:** System must generate a visual that updates whenever there is a new contribution 
+   - **FR2:** System must calculate and display the amount left to the goal
+   - **NFR1:** Goal progress must be shown visually on the screen
+   - **NFR2:** The calculation must be 100% accurate
+- **UC3:** Log daily transactions
+  - **FR1:** System must provide fields that are for the transaction's data (e.g., amount, date, etc.)
+  - **FR2:** Look for and notify the user if duplicate entries are in the application
+  - **NFR1:** System must be available without an internet connection 
+- **UC4:** Track weekly savings consistency
+  - **FR1:** System needs to compare the total savings logged during a seven day period against the weekly target
+  - **FR2:** System must provide a list of that labels each of the past weeks as "met" or "missed" 
+  - **NFR1:** System shall make the display easy to view and understand by using correct visuals and information
+- **UC5:** Analyze spending proportions
+  - **FR1:** System must sum all manual transactions based on the transactions assigned category
+  - **FR2:** System must generate the appropriate visual to show each category's percentage as a part of overall expenditure
+  - **NFR1:** System must ensure that the data is accurately summing the amounts and reported for all categories
+  - **NFR2:** Colors in the visual should be chosen to to help identify the categories easily
+- **UC6:** Evaluate purchase impact
+  - **FR1:** System must provide a dedicated UI where the user can enter a purchase amount and category to preview how it reduces the budget 
+  - **FR2:** System needs to calculate and show an updated completion date for the savings goal(e.g., vacation fund)
+  - **NFR1:** The evaluation must be completed within 300 ms
+  - **NFR2:** System shall present a message to the user that expresses the impact of the purchase on the user's saving goals 
+- **UC7:** Receive savings prompts
+  - **FR1:** System must allow the user to set specific periods to notify of the need to transfer funds to the savings goal
+  - **FR2:** System must provide controls like a "log contribution" option to record the amount transferred to the savings goal
+  - **NFR1:** Any notification must be delivered within one minute of the scheduled saving prompt
+  - **NFR2:** System should allow the suspension of the notification
+- **UC8:** Review monthly financial performance
+  - **FR1:** System shall generate a monthly cash flow view that shows total expenses subtracted from the user's monthly income
+  - **FR2:** System should provide a visual that clearly shows the current months saving compared to previous months 
+  - **NFR1:** The summary must be a easily readable form
+  - **NFR2:** System must be 100% accurate in calculating and displaying the the results of the months calculations
+- **UC9:** View organized spending
+    - **FR1:** Manual category assignment must be provided by a UI that allows the user to select predefined categories 
+    - **FR2:** Spending summary dashboard must aggregate all transactions and display a summary
+    - **FR3:** Transaction history filtering based on date range
+    - **FR4:** Spending search to search by specific transaction
+    - **NFR1:** The application should allow the user to manually enter and categorize a transaction in under 10 seconds
+    - **NFR2:** The summary should and category filters must load in less than 3 seconds
+- **UC10:** Review specific category spending
+  - **FR1:** System shall provide a filter that allows the user to select a category and date range to view a list of transactions
+  - **FR2:** System must calculate and show all transactions based on the selected category
+  - **NFR1:** The results of the filter shall be returned in under one second
+  - **NFR2:** Interface should be intuitive and uses prompts that are familiar
+- **UC11:** Predict when future spending savings milestones will be accomplished
+  - **FR1:** System shall calculate a predicted completion date based on remaining balance and the contribution rate of the user 
+  - **FR2:** System shall re-calculate the savings rate to meet the goal
+  - **NFR1:** Forecast must be presented to the use in under one second
+- **UC12:** Identify spending triggers
+   - **FR1:** System must provide a set of customizable tags that describe the behavior or emotion at the time of the transaction
+   - **FR2:** System aggregates the tags and reports the totals based on these tags
+   - **NFR1:**  Triggers need to be integrated into the log transaction UI
+   - **NFR2:** 
