@@ -36,7 +36,7 @@ The concepts and technologies used to create and complete the assessments are th
 |**Repository Name**|**Purpose**|**Additional Comments**|
 |:-----:|:-----|:-----|
 |[Introductory Project](https://github.com/HeinoPortfolio/CS690-BusShuttleProject)| An introductory project for introducing C# programming language and other course concepts. It was a used as a warm-up for the final project. | Not all the code found in this repo was created by the owner of this repo.  Most code was created by the course instructor. 
-|[Final Project](https://github.com/HeinoPortfolio/CS690-FinalProject)|Final project for the course.  See the Wiki and the ReadMe files that are included in the repository for more information. | All code and documentayion found in this respository was created by me unless otherwise noted. 
+|[Final Project](https://github.com/HeinoPortfolio/CS690-FinalProject)|Final project for the course.  See the Wiki and the ReadMe files that are included in the repository for more information. | All code and documentation found in this respository was created by me unless otherwise noted. 
 || |
 
 
