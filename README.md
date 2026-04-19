@@ -1,4 +1,4 @@
-# Software-Engineering
+# Software Engineering
 
 ##  Description
 > Software engineering principles and concepts. The software life cycle, structured specifications, design tools and techniques, software reliability, and verifying program correctness.
